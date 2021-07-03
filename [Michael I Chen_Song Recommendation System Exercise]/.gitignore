@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+.ipynb_checkpoints/**
+__pycache__/
+__pycache__/**
+10000.txt
+song_data.csv
+song_df.pkl
+song_df_2.pkl
