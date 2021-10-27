@@ -1,6 +1,0 @@
-.ipynb_checkpoints/
-.ipynb_checkpoints/*
-catboost_info/
-catboost_info/*
-frill.model
-frill.pkl
