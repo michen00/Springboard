@@ -1,0 +1,4 @@
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+LDA_features_CV5_predictions.pkl
+LOF+LDA-classLOF_vs_LOF-LDA-classLOF_CV5_predictions.pkl

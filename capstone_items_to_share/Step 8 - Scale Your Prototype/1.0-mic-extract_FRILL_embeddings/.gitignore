@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+dev_FRILL.feather
+nondev_FRILL.feather
+ragged_features_nondev.pkl
+ragged_features_dev.pkl

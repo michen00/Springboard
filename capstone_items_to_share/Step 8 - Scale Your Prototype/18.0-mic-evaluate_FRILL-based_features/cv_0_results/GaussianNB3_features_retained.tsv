@@ -1,0 +1,39 @@
+0	[('select_features', SelectFromModel(estimator=AdaBoostClassifier(base_estimator=DecisionTreeClassifier(ccp_alpha=4.136349030189874e-12,
+                                                                                   max_depth=6,
+                                                                                   max_features='log2',
+                                                                                   max_leaf_nodes=25,
+                                                                                   min_impurity_decrease=0.20187656828075834,
+                                                                                   min_samples_leaf=8,
+                                                                                   min_samples_split=8,
+                                                                                   min_weight_fraction_leaf=0.46475620468885936,
+                                                                                   random_state=2021,
+                                                                                   splitter='random'),
+                                             learning_rate=1.6982318700250885e-19,
+                                             n_estimators=100,
+                                             random_state=2021),
+                max_features=20)), ('clf', GaussianNB(var_smoothing=0.00010248874577879313))]	['LDA1' 'LDA2' 'LDA-LOF_neg_10' 'LDA-LOF_neu_10' 'LDA-LOF_pos_10'
+ 'LDA-LOF_neg_20' 'LDA-LOF_neu_20' 'LDA-LOF_pos_20' 'LDA-LOF_neg_30'
+ 'LDA-LOF_neu_30' 'LDA-LOF_pos_30' 'LDA-LOF-PCA_neg' 'LDA-LOF-PCA_neu'
+ 'LDA-LOF-PCA_pos' 'LOF_neg_10' 'LOF_neu_10' 'LOF_pos_10' 'LOF_neg_20'
+ 'LOF_neu_20' 'LOF_pos_20']
+0	[('select_features', SelectFromModel(estimator=AdaBoostClassifier(base_estimator=DecisionTreeClassifier(ccp_alpha=4.136349030189874e-12,
+                                                                                   max_depth=6,
+                                                                                   max_features='log2',
+                                                                                   max_leaf_nodes=25,
+                                                                                   min_impurity_decrease=0.20187656828075834,
+                                                                                   min_samples_leaf=8,
+                                                                                   min_samples_split=8,
+                                                                                   min_weight_fraction_leaf=0.46475620468885936,
+                                                                                   random_state=2021,
+                                                                                   splitter='random'),
+                                             learning_rate=1.6982318700250885e-19,
+                                             n_estimators=100,
+                                             random_state=2021),
+                max_features=20)), ('clf', GaussianNB(var_smoothing=0.00010248874577879313))]	['LDA1' 'LDA2' 'LDA-LOF_neg_10' 'LDA-LOF_neu_10' 'LDA-LOF_pos_10'
+ 'LDA-LOF_neg_20' 'LDA-LOF_neu_20' 'LDA-LOF_pos_20' 'LDA-LOF_neg_30'
+ 'LDA-LOF_neu_30' 'LDA-LOF_pos_30' 'LDA-LOF-PCA_neg' 'LDA-LOF-PCA_neu'
+ 'LDA-LOF-PCA_pos' 'LOF_neg_10' 'LOF_neu_10' 'LOF_pos_10' 'LOF_neg_20'
+ 'LOF_neu_20' 'LOF_pos_20']
+0	[('select_features', SelectKBest(k=4,
+            score_func=<function mutual_info_classif at 0x000001680AF450D0>)), ('clf', GaussianNB(var_smoothing=0.8348538910338222))]	['theta_QT-norm_poly6_LDA1+poly6_LDA2' 'spherical-LDA1' 'spherical-LDA2'
+ 'OC_spherical-LDA_neg']

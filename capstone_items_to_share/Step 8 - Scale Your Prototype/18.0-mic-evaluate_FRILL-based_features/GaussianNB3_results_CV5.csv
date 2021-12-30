@@ -1,0 +1,12 @@
+,fold_num,steps,fit_time,predict_time,accuracy,adjusted_balanced_accuracy,f1_weighted,geometric_mean,log_loss,roc_auc_ovo
+0,0,"[('select_features', SelectKBest(k=4,
+            score_func=<function mutual_info_classif at 0x000001680AF450D0>)), ('clf', GaussianNB(var_smoothing=0.8348538910338222))]",6808.814913,0.011749744,0.65940418,0.357027713,0.63480445,0.49938245,0.884822389,0.765140909
+1,1,"[('select_features', SelectKBest(k=4,
+            score_func=<function mutual_info_classif at 0x000001680AF450D0>)), ('clf', GaussianNB(var_smoothing=0.8348538910338222))]",6727.347939,0.015635967,0.644220757,0.353436804,0.634533723,0.540380865,0.839522357,0.781093212
+2,2,"[('select_features', SelectKBest(k=4,
+            score_func=<function mutual_info_classif at 0x000001680AF450D0>)), ('clf', GaussianNB(var_smoothing=0.8348538910338222))]",5948.73875,0.015586376,0.594544231,0.316402897,0.585390493,0.501940662,0.955733756,0.743857975
+3,3,"[('select_features', SelectKBest(k=2,
+            score_func=<function mutual_info_classif at 0x000001680AF450D0>)), ('clf', GaussianNB(var_smoothing=0.00010248874577879313))]",5237.312312,0.015622377,0.606846192,0.280309637,0.582883741,0.449055408,2.018335007,0.729484733
+4,4,"[('select_features', SelectKBest(k=4,
+            score_func=<function mutual_info_classif at 0x000001680AF450D0>)), ('clf', GaussianNB(var_smoothing=0.8348538910338222))]",6164.13414,0.015618801,0.588374062,0.32069908,0.573682638,0.49815859,0.971446868,0.743890137
+,,,6177.269611,0.014842653,0.618677884,0.325575226,0.602259009,0.497783595,1.133972076,0.752693393

@@ -1,0 +1,40 @@
+2021-12-15	1639621341.2718213	3	[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2024,
+                  verbose=1))]	['theta_QT-unif_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-15	1639628877.3068068	3	[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2024,
+                  verbose=1))]	['theta_QT-unif_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-15	1639638792.6351657	3	[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]	['spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-15	1639638795.5288064	3	[('select_before', SelectKBest(k=6)), ('clf', GaussianNB())]	['poly6_LDA1'
+ 'theta_QT-unif_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-15	1639638799.089755	3	[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]	['spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-16	1639725713.1359503	3	[('select_before', SelectKBest(k=3)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2024,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]	['spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg']
+2021-12-16	1639725716.7510593	3	[('select_before', SelectKBest(k=6)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2024,
+                  verbose=1))]	['poly6_LDA1'
+ 'theta_QT-unif_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-16	1639725720.9086199	3	[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2024,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]	['spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-16	1639725724.798592	3	[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2024,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]	['spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']

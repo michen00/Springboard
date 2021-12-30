@@ -1,0 +1,125 @@
+,fold_num,target_score,steps,fit_time,predict_time,accuracy,adjusted_balanced_accuracy,f1_weighted,geometric_mean,roc_auc_ovo,roc_auc_ovr,roc_auc_ovo_weighted,roc_auc_ovr_weighted
+0,0,accuracy,"[('select_before', SelectKBest(k=5)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2021,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",4.529800653457642,0.20253205299377441,0.6619979250037054,0.3133519825615676,0.6302667439184811,0.46810132949199246,0.7747857829479958,0.7655444042696292,0.7642436752523003,0.7478960902062072
+1,0,balanced_accuracy,"[('select_before', SelectKBest(k=5)), ('clf', GaussianNB())]",2.343792200088501,0.014603137969970703,0.6579220394249296,0.3545208026066937,0.6383051660158795,0.5158159909008768,0.7743654308576398,0.7651477824227625,0.7637239714647357,0.7470493468339597
+2,0,f1_weighted,"[('select_before', SelectKBest(k=5)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2021,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",4.529800653457642,0.20253205299377441,0.6619979250037054,0.3133519825615676,0.6302667439184811,0.46810132949199246,0.7747857829479958,0.7655444042696292,0.7642436752523003,0.7478960902062072
+3,0,geometric_mean,"[('select_before', SelectKBest(k=5)), ('clf', GaussianNB())]",2.343792200088501,0.014603137969970703,0.6579220394249296,0.3545208026066937,0.6383051660158795,0.5158159909008768,0.7743654308576398,0.7651477824227625,0.7637239714647357,0.7470493468339597
+4,0,roc_auc_ovo,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2021,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",2.5908925533294678,0.20227599143981934,0.6641470283088781,0.3138168734824411,0.6307239190599178,0.46310746894402927,0.754503341609789,0.7514508118286795,0.7495686525085667,0.7392049835401889
+5,0,roc_auc_ovr,"[('select_before', SelectKBest(k=5)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2021,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",4.529800653457642,0.20253205299377441,0.6619979250037054,0.3133519825615676,0.6302667439184811,0.46810132949199246,0.7747857829479958,0.7655444042696292,0.7642436752523003,0.7478960902062072
+6,0,roc_auc_ovo_weighted,"[('select_before', SelectKBest(k=5)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2021,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",4.529800653457642,0.20253205299377441,0.6619979250037054,0.3133519825615676,0.6302667439184811,0.46810132949199246,0.7747857829479958,0.7655444042696292,0.7642436752523003,0.7478960902062072
+7,0,roc_auc_ovr_weighted,"[('select_before', SelectKBest(k=5)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2021,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",4.529800653457642,0.20253205299377441,0.6619979250037054,0.3133519825615676,0.6302667439184811,0.46810132949199246,0.7747857829479958,0.7655444042696292,0.7642436752523003,0.7478960902062072
+0,1,accuracy,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=CalibratedClassifierCV(base_estimator=GaussianNB(),
+                                                        method='isotonic',
+                                                        n_jobs=-1),
+                  n_jobs=-1, random_state=2022, verbose=1))]",4.6319684982299805,0.16718626022338867,0.6520305449496703,0.3217126720547703,0.6341331717156159,0.5087067018708037,0.7915792932224189,0.7796729720324672,0.7771317618004544,0.7573615365874904
+1,1,balanced_accuracy,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2022,
+                  verbose=1))]",2.562520980834961,0.061533451080322266,0.642485248177716,0.36218785634552847,0.6362749973638462,0.5540339076593819,0.7921621592517131,0.7800521598813114,0.7774905961416828,0.7571959148558212
+2,1,f1_weighted,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=CalibratedClassifierCV(base_estimator=GaussianNB(),
+                                                        method='isotonic',
+                                                        n_jobs=-1),
+                  n_jobs=-1, random_state=2022, verbose=1))]",4.6319684982299805,0.16718626022338867,0.6520305449496703,0.3217126720547703,0.6341331717156159,0.5087067018708037,0.7915792932224189,0.7796729720324672,0.7771317618004544,0.7573615365874904
+3,1,geometric_mean,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2022,
+                  verbose=1))]",2.562520980834961,0.061533451080322266,0.642485248177716,0.36218785634552847,0.6362749973638462,0.5540339076593819,0.7921621592517131,0.7800521598813114,0.7774905961416828,0.7571959148558212
+4,1,roc_auc_ovo,"[('select_before', SelectKBest(k=5)), ('clf', GaussianNB())]",2.053891897201538,0.012691736221313477,0.6423984727525165,0.36173859199167735,0.6361358961457378,0.5536571749662003,0.7922498977361722,0.7801075916919314,0.7775473361948464,0.7572079981808212
+5,1,roc_auc_ovr,"[('select_before', SelectKBest(k=5)), ('clf', GaussianNB())]",2.0677378177642822,0.010622024536132812,0.6423984727525165,0.36173859199167735,0.6361358961457378,0.5536571749662003,0.7922498977361722,0.7801075916919314,0.7775473361948464,0.7572079981808212
+6,1,roc_auc_ovo_weighted,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2022,
+                  verbose=1))]",2.562520980834961,0.061533451080322266,0.642485248177716,0.36218785634552847,0.6362749973638462,0.5540339076593819,0.7921621592517131,0.7800521598813114,0.7774905961416828,0.7571959148558212
+7,1,roc_auc_ovr_weighted,"[('select_before', SelectKBest(k=3)), ('clf', GaussianNB())]",2.060650110244751,0.01819157600402832,0.6496876084692815,0.34720343823878513,0.6376966679610557,0.5326417284322308,0.7610820100200991,0.7586060245186257,0.7555422014085822,0.7460507448362763
+0,2,accuracy,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=CalibratedClassifierCV(base_estimator=GaussianNB(),
+                                                        method='isotonic',
+                                                        n_jobs=-1),
+                  n_jobs=-1, random_state=2023, verbose=1))]",4.081998348236084,0.2169802188873291,0.6006522076712045,0.27974125514784115,0.584444653450827,0.47530402848225517,0.7472006160442787,0.7445398643141171,0.7426605789200929,0.7393856245538148
+1,2,balanced_accuracy,"[('select_before', SelectKBest(k=6)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2023,
+                  verbose=1))]",2.3756439685821533,0.05232071876525879,0.5892126921683317,0.3278783619329786,0.5895253149215269,0.5380182276330882,0.7431723845448973,0.7410085873275601,0.7388272453105541,0.7346874568292502
+2,2,f1_weighted,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=CalibratedClassifierCV(base_estimator=GaussianNB(),
+                                                        method='isotonic',
+                                                        n_jobs=-1),
+                  n_jobs=-1, random_state=2023, verbose=1))]",4.081998348236084,0.2169802188873291,0.6006522076712045,0.27974125514784115,0.584444653450827,0.47530402848225517,0.7472006160442787,0.7445398643141171,0.7426605789200929,0.7393856245538148
+3,2,geometric_mean,"[('select_before', SelectKBest(k=6)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2023,
+                  verbose=1))]",2.3756439685821533,0.05232071876525879,0.5892126921683317,0.3278783619329786,0.5895253149215269,0.5380182276330882,0.7431723845448973,0.7410085873275601,0.7388272453105541,0.7346874568292502
+4,2,roc_auc_ovo,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2023,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",2.476331949234009,0.2475297451019287,0.6047932087582173,0.27989365897223434,0.5847679501327311,0.46138099668288435,0.7370175852214856,0.7381965274568949,0.7358298278443932,0.737022392933222
+5,2,roc_auc_ovr,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=CalibratedClassifierCV(base_estimator=GaussianNB(),
+                                                        method='isotonic',
+                                                        n_jobs=-1),
+                  n_jobs=-1, random_state=2023, verbose=1))]",4.081998348236084,0.2169802188873291,0.6006522076712045,0.27974125514784115,0.584444653450827,0.47530402848225517,0.7472006160442787,0.7445398643141171,0.7426605789200929,0.7393856245538148
+6,2,roc_auc_ovo_weighted,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=CalibratedClassifierCV(base_estimator=GaussianNB(),
+                                                        method='isotonic',
+                                                        n_jobs=-1),
+                  n_jobs=-1, random_state=2023, verbose=1))]",4.081998348236084,0.2169802188873291,0.6006522076712045,0.27974125514784115,0.584444653450827,0.47530402848225517,0.7472006160442787,0.7445398643141171,0.7426605789200929,0.7393856245538148
+7,2,roc_auc_ovr_weighted,"[('select_before', SelectKBest(k=5)), ('clf', BaggingClassifier(base_estimator=CalibratedClassifierCV(base_estimator=GaussianNB(),
+                                                        method='isotonic',
+                                                        n_jobs=-1),
+                  n_jobs=-1, random_state=2023, verbose=1))]",4.081998348236084,0.2169802188873291,0.6006522076712045,0.27974125514784115,0.584444653450827,0.47530402848225517,0.7472006160442787,0.7445398643141171,0.7426605789200929,0.7393856245538148
+0,3,accuracy,"[('select_before', SelectKBest(k=3)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2024,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",3.5149357318878174,0.3208768367767334,0.6102074720859251,0.26212994998536676,0.5829188921493832,0.44065086523156444,0.7244166960554085,0.7260359371256832,0.7229624066423931,0.720112414220032
+1,3,balanced_accuracy,"[('select_before', SelectKBest(k=6)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2024,
+                  verbose=1))]",2.181180953979492,0.19979405403137207,0.6055712243557547,0.29940276893563816,0.5893562250425903,0.481854935835333,0.749517253930983,0.7434275871278059,0.7408996276380178,0.7297138976520868
+2,3,f1_weighted,"[('select_before', SelectKBest(k=3)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2024,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",3.5149357318878174,0.3208768367767334,0.6102074720859251,0.26212994998536676,0.5829188921493832,0.44065086523156444,0.7244166960554085,0.7260359371256832,0.7229624066423931,0.720112414220032
+3,3,geometric_mean,"[('select_before', SelectKBest(k=6)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2024,
+                  verbose=1))]",2.181180953979492,0.19979405403137207,0.6055712243557547,0.29940276893563816,0.5893562250425903,0.481854935835333,0.749517253930983,0.7434275871278059,0.7408996276380178,0.7297138976520868
+4,3,roc_auc_ovo,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2024,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",2.2353923320770264,0.31575751304626465,0.6115983464049762,0.2615252169387177,0.5823229285408297,0.43361977952997494,0.7310749921836402,0.7309998146000799,0.7280624554985732,0.7236932212233826
+5,3,roc_auc_ovr,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2024,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]",2.2220585346221924,0.3270225524902344,0.6115983464049762,0.2615252169387177,0.5823229285408297,0.43361977952997494,0.7310749921836402,0.7309998146000799,0.7280624554985732,0.7236932212233826
+6,3,roc_auc_ovo_weighted,"[('select_before', SelectKBest(k=6)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2024,
+                  verbose=1))]",2.181180953979492,0.19979405403137207,0.6055712243557547,0.29940276893563816,0.5893562250425903,0.481854935835333,0.749517253930983,0.7434275871278059,0.7408996276380178,0.7297138976520868
+7,3,roc_auc_ovr_weighted,"[('select_before', SelectKBest(k=6)), ('clf', BaggingClassifier(base_estimator=GaussianNB(), n_jobs=-1, random_state=2024,
+                  verbose=1))]",2.181180953979492,0.19979405403137207,0.6055712243557547,0.29940276893563816,0.5893562250425903,0.481854935835333,0.749517253930983,0.7434275871278059,0.7408996276380178,0.7297138976520868
+0,4,accuracy,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]",3.7062113285064697,0.05907106399536133,0.586196467457053,0.29075616591907466,0.5681661881255063,0.47753895644094535,0.7441858137106993,0.7479704648388651,0.7452934208035698,0.7479831120634798
+1,4,balanced_accuracy,"[('select_before', SelectFromModel(estimator=AdaBoostClassifier(base_estimator=DecisionTreeClassifier(random_state=2025),
+                                             random_state=2025))), ('clf', GaussianNB())]",92.46653938293457,0.0232236385345459,0.5829300750060489,0.34425265679791295,0.5799524707653457,0.5475164918897489,0.7542762990695007,0.756258335021411,0.7536143352355051,0.7537576135552541
+2,4,f1_weighted,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]",3.7062113285064697,0.05907106399536133,0.586196467457053,0.29075616591907466,0.5681661881255063,0.47753895644094535,0.7441858137106993,0.7479704648388651,0.7452934208035698,0.7479831120634798
+3,4,geometric_mean,"[('select_before', SelectFromModel(estimator=AdaBoostClassifier(base_estimator=DecisionTreeClassifier(random_state=2025),
+                                             random_state=2025))), ('clf', GaussianNB())]",92.46653938293457,0.0232236385345459,0.5829300750060489,0.34425265679791295,0.5799524707653457,0.5475164918897489,0.7542762990695007,0.756258335021411,0.7536143352355051,0.7537576135552541
+4,4,roc_auc_ovo,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]",3.7062113285064697,0.05907106399536133,0.586196467457053,0.29075616591907466,0.5681661881255063,0.47753895644094535,0.7441858137106993,0.7479704648388651,0.7452934208035698,0.7479831120634798
+5,4,roc_auc_ovr,"[('select_before', SelectKBest(k=4)), ('clf', BaggingClassifier(base_estimator=CalibratedClassifierCV(base_estimator=GaussianNB(),
+                                                        method='isotonic',
+                                                        n_jobs=-1),
+                  n_jobs=-1, random_state=2025, verbose=1))]",2.824556589126587,0.16090154647827148,0.586015001209775,0.2894723279202222,0.5675823848967685,0.47575358899075926,0.7442731032095348,0.7480695273388154,0.745377401130627,0.7480522689406469
+6,4,roc_auc_ovo_weighted,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]",3.7062113285064697,0.05907106399536133,0.586196467457053,0.29075616591907466,0.5681661881255063,0.47753895644094535,0.7441858137106993,0.7479704648388651,0.7452934208035698,0.7479831120634798
+7,4,roc_auc_ovr_weighted,"[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]",3.7062113285064697,0.05907106399536133,0.586196467457053,0.29075616591907466,0.5681661881255063,0.47753895644094535,0.7441858137106993,0.7479704648388651,0.7452934208035698,0.7479831120634798

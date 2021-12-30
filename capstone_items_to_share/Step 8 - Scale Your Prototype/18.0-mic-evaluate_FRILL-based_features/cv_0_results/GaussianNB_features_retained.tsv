@@ -1,0 +1,51 @@
+2021-12-15	1639621206.3644843	0	[('select_before', SelectFromModel(estimator=AdaBoostClassifier(base_estimator=DecisionTreeClassifier(random_state=2021),
+                                             random_state=2021))), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]	['ocsvm_poly6_neu' 'ocsvm_poly6_pos'
+ 'phi_None_LOF_neg_20+LOF_neu_20+LOF_pos_20'
+ 'phi_None_LOF_neg_30+LOF_neu_30+LOF_pos_30'
+ 'theta_None_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'phi_StSc_LOF_neg_30+LOF_neu_30+LOF_pos_30'
+ 'theta_QT-unif_poly5_LDA1+poly5_LDA2'
+ 'phi_QT-unif_LOF_neg_10+LOF_neu_10+LOF_pos_10' 'spherical-LDA1'
+ 'spherical-LDA2' 'OC_spherical-LDA_neg' 'OC_spherical-LDA_neu'
+ 'OC_spherical-LDA_pos']
+2021-12-15	1639628228.5435221	0	[('select_before', SelectFromModel(estimator=AdaBoostClassifier(base_estimator=DecisionTreeClassifier(random_state=2021),
+                                             random_state=2021))), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]	['ocsvm_poly6_neu' 'ocsvm_poly6_pos'
+ 'phi_None_LOF_neg_20+LOF_neu_20+LOF_pos_20'
+ 'phi_None_LOF_neg_30+LOF_neu_30+LOF_pos_30'
+ 'theta_None_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'phi_StSc_LOF_neg_30+LOF_neu_30+LOF_pos_30'
+ 'theta_QT-unif_poly5_LDA1+poly5_LDA2'
+ 'phi_QT-unif_LOF_neg_10+LOF_neu_10+LOF_pos_10' 'spherical-LDA1'
+ 'spherical-LDA2' 'OC_spherical-LDA_neg' 'OC_spherical-LDA_neu'
+ 'OC_spherical-LDA_pos']
+2021-12-15	1639628232.2265081	0	[('select_before', SelectKBest(k=6)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]	['theta_QT-unif_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu' 'OC_spherical-LDA_pos']
+2021-12-15	1639633006.0667827	0	[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]	['spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-15	1639633009.1453068	0	[('select_before', SelectKBest(k=5)), ('clf', GaussianNB())]	['theta_QT-unif_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-15	1639633012.9112005	0	[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=GaussianNB(), method='isotonic',
+                       n_jobs=-1))]	['spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-16	1639707885.6008084	0	[('select_before', SelectKBest(k=5)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2021,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]	['theta_QT-unif_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-16	1639707888.9063444	0	[('select_before', SelectKBest(k=5)), ('clf', GaussianNB())]	['theta_QT-unif_ocsvm_poly6_neg+ocsvm_poly6_neu+ocsvm_poly6_pos'
+ 'spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']
+2021-12-16	1639707893.229544	0	[('select_before', SelectKBest(k=4)), ('clf', CalibratedClassifierCV(base_estimator=BaggingClassifier(base_estimator=GaussianNB(),
+                                                        n_jobs=-1,
+                                                        random_state=2021,
+                                                        verbose=1),
+                       method='isotonic', n_jobs=-1))]	['spherical-LDA1' 'spherical-LDA2' 'OC_spherical-LDA_neg'
+ 'OC_spherical-LDA_neu']

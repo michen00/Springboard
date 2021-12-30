@@ -1,0 +1,2 @@
+The preprocessing pipeline puts a damper on performance. Preprocessing should be more carefully considered.
+The models in this folder were trained on the MinMax->SparseRandomProjection->ADASYN->OneSidedSelection data.

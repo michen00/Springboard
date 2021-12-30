@@ -1,0 +1,91 @@
+I forgot to record the results in a table, but here are the scores with 5 folds for LOF-LDA-per_class_LOF:
+* accuracy
+  * RidgeClassifierCV: 0.5901624569194004
+  * SVC: 0.5893779740855531
+  * LinearSVC: 0.5891305007859011
+  * SGDClassifier: 0.5878137791626603
+  * GaussianProcessClassifier: 0.5870374964133976
+  * GaussianNB: 0.5869854490717853
+  * LinearDiscriminantAnalysis: 0.5869620116683917
+  * LogisticRegressionCV: 0.5861997116442303
+  * BaggingClassifier, rf, class_weight="balanced": 0.5822331323584116
+  * BaggingClassifier, rf: 0.5812185298390132
+  * LinearSVC, class_weight="balanced": 0.5771815900367802
+  * SGDClassifier, class_weight="balanced": 0.5763139527465022
+  * KNeighborsClassifier: 0.5760291839438129
+  * RidgeClassifierCV, class_weight="balanced": 0.5715380502530761
+  * LogisticRegressionCV, class_weight="balanced": 0.5677342844447879
+  * SVC, class_weight="balanced": 0.5666081006444025
+  * PassiveAggressiveClassifier: 0.5429492952509187
+* balanced accuracy
+  * RidgeClassifierCV, class_weight="balanced": 0.5377906458964893
+  * LogisticRegressionCV, class_weight="balanced": 0.5365654377274682
+  * SGDClassifier, class_weight="balanced": 0.5322620371549625
+  * LinearSVC, class_weight="balanced": 0.5308855333830994
+  * GaussianNB: 0.5253619210050471
+  * LinearSVC: 0.5237061445610884
+  * LogisticRegressionCV: 0.5224010773636021
+  * GaussianProcessClassifier: 0.5221575448124037
+  * SGDClassifier: 0.5215123978562295
+  * LinearDiscriminantAnalysis: 0.521238402602787
+  * BaggingClassifier, rf: 0.519540357424236
+  * BaggingClassifier, rf, class_weight="balanced": 0.519123104305866
+  * SVC, class_weight="balanced": 0.5370808567923417
+  * RidgeClassifierCV: 0.5195023452734098
+  * SVC: 0.5190152518091554
+  * PassiveAggressiveClassifier: 0.5180245811000991
+  * KNeighborsClassifier: 0.5103337440330897
+* balanced accuracy (adjusted)
+  * RidgeClassifierCV, class_weight="balanced": 0.3066859688447339
+  * SVC, class_weight="balanced": 0.30562128518851245
+  * LogisticRegressionCV, class_weight="balanced": 0.30484815659120235
+  * SGDClassifier, class_weight="balanced": 0.2983930557324437
+  * LinearSVC, class_weight="balanced": 0.29632830007464916
+  * GaussianNB: 0.28804288150757057
+  * LinearSVC: 0.28555921684163255
+  * LogisticRegressionCV: 0.2836016160454031
+  * SGDClassifier: 0.2822685967843442
+  * GaussianProcessClassifier: 0.28323631721860565
+  * LinearDiscriminantAnalysis: 0.2818576039041804
+  * BaggingClassifier, rf: 0.27931053613635387
+  * RidgeClassifierCV: 0.27925351791011466
+  * BaggingClassifier, rf, class_weight="balanced": 0.2786846564587988
+  * SVC: 0.27852287771373313
+  * PassiveAggressiveClassifier: 0.27703687165014873
+  * KNeighborsClassifier: 0.2655006160496346
+* F1
+  * SGDClassifier: 0.5777366931441663
+  * LinearSVC: 0.577603780969278
+  * GaussianNB: 0.5756325583757933
+  * LogisticRegressionCV: 0.5756103504371708
+  * GaussianProcessClassifier: 0.5754893007815751
+  * RidgeClassifierCV: 0.5754891100968171
+  * SGDClassifier, class_weight="balanced": 0.5749328617458996
+  * SVC: 0.5748169221480495
+  * LinearDiscriminantAnalysis: 0.5744326898901084
+  * LinearSVC, class_weight="balanced": 0.5732878021220349
+  * BaggingClassifier, rf, class_weight="balanced": 0.5719103103758405
+  * BaggingClassifier, rf: 0.5712876896939699
+  * RidgeClassifierCV, class_weight="balanced": 0.5711917808231333
+  * LogisticRegressionCV, class_weight="balanced": 0.5684530233903529
+  * SVC, class_weight="balanced": 0.5677056133713176
+  * KNeighborsClassifier: 0.5640971883681413
+  * PassiveAggressiveClassifier: 0.5375356151836023
+* G-mean
+  * RidgeClassifierCV, class_weight="balanced": 0.6382657983223671
+  * SVC, class_weight="balanced": 0.6365821535203209
+  * LogisticRegressionCV, class_weight="balanced": 0.6365002954316786
+  * SGDClassifier, class_weight="balanced": 0.6357432629762567
+  * LinearSVC, class_weight="balanced": 0.6348837846406694
+  * LinearSVC: 0.6321780632746264
+  * GaussianNB: 0.6315596459713106
+  * SGDClassifier: 0.6308855198603773
+  * LogisticRegressionCV: 0.6305692541469996
+  * GaussianProcessClassifier: 0.6304906903300453
+  * RidgeClassifierCV: 0.6297072292395292
+  * LinearDiscriminantAnalysis: 0.6290565250295219
+  * SVC: 0.6284080405626797
+  * BaggingClassifier, rf, class_weight="balanced": 0.6278071012238631
+  * BaggingClassifier, rf: 0.6275372816035704
+  * KNeighborsClassifier: 0.6197899370766083
+  * PassiveAggressiveClassifier: 0.6188074770531449
