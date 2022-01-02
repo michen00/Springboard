@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+.ipynb_checkpoints/*
+*.joblib
+features_ready_for_selection.feather
+unscaled_features_ready_for_selection.feather
+spherical_features.feather
