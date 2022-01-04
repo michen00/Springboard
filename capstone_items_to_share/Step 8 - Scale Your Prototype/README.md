@@ -85,10 +85,16 @@
    > I found three new datasets that I didn't encounter when I first gathered data. In this stage, those datasets are prepared for evaluation using the same preprocessing and feature extraction steps we used for the full training dataset.
 
 1. 22.0-mic-evaluate_prototypes_with_holdout_data
-   > Results were disappointing, with accuracies capping around 59% and AUROC around 64%. The RF turned out to be a red herring. I went back and trained a RidgeClassifier, but only got a little bump in accuracy. I have a hunch that the *surprise* samples may induce a lot of noise.
+   > Results were disappointing, with accuracies capping around 59% and AUROC around 64%. The RF turned out to be a red herring. I went back and trained a RidgeClassifier, but only got a little bump in accuracy. I have a hunch that the *surprise* samples may induce a lot of noise. LogisticRegression could still be good, but I was worried about how long it took for the optimizer to converge.
    - best AUROC: 64.3% (plain_GNB)
    - best accuracy: 59.3% (voting_ensemble_gnb_ridge)
    - best log loss: 1.293 (bagging_GNB)
+
+1. 23.0-mic-train_new_prototype_with_simplified_pipeline
+  > It turns out the feature extractors were quite bulky, up to 5 GB in size. Following my intuition after having progressed thus far, I drastically simplified the featurization process. Feature extractors are now about 30 MB. Accuracy really took a hit, but log loss improved at least.
+  - best AUROC: 64.1% (ridge)
+  - best accuracy: 50.7% (bagging_GNB)
+  - best log loss: 1.139 (voting_gnb_ridge)
 
 # Get the data
 
