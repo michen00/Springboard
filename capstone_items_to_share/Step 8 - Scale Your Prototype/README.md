@@ -94,7 +94,34 @@
   > It turns out the feature extractors were quite bulky, up to 5 GB in size. Following my intuition after having progressed thus far, I drastically simplified the featurization process. Feature extractors are now about 30 MB. Accuracy really took a hit, but log loss improved at least.
   - best AUROC: 64.1% (ridge)
   - best accuracy: 50.7% (bagging_GNB)
-  - best log loss: 1.139 (voting_gnb_ridge)
+  - best log loss: 1.145 (voting_gnb_ridge)
+
+1. 24.0-mic-train_new_prototype_with_simplified_pipeline_and_no_song_data
+  > Since scores really took a hit, I decided to try one more round of tweaks. Following my intuition after having progressed thus far, I revised the featurization process.
+  - best AUROC: 63.6% (ridge)
+  - best accuracy: 53.5% (voting ensemble of GNBfull and LogReg; log loss 1.1098, AUROC 62.4%)
+  - best log loss: 1.058 (bagging_GNB on full features)
+
+1. 25.0-mic-train_new_prototypes_with_minimal_feature_processing
+  > The feature extractors were a huge bottleneck in deployment, so I thought I'd simplify even more. I must've overdid it since the new scores are so bad they aren't worth reporting. At least it is validation that all that feature engineering effort wasn't in vain. I'll try just one more time with the poly kernel features removed since those feature extractors take the longest by far.
+
+1. 26.0-mic-train_new_prototypes_with_simplified_pipeline_and_no_poly_scores
+  > I still had to do something about the horribly slow processing times. The polynomial kernel features were the most cumbersome and I was able to drop them without losing all skill. Some scores are actually improved!
+  - best AUROC: 63.2% (ridge)
+  - best accuracy: 57.8% (voting ensemble of LogReg on 2 features and ridge on all FRILL-derived)
+  - best log loss: 1.009 (voting ensemble of LogReg on 2 features and ridge on all FRILL-derived)
+  > The chosen model for deployment was actually the stacked passthrough classifier; it combines the strengths of the feature extractors with a naive bayes, ridge regression, and logistic regression (accuracy: 50.7%, auroc: 62.5%, log loss: 1.043). We didn't choose the model with any of the top scores since the differentiating scores are really measures like balanced accuracy and geometric mean (given class imbalance). Log loss is almost equivalent for most models.
+
+1. 27.0-mic-incorporate_holdout_data_and_retrain
+  > You'd expect a better model with better data. The selected pipeline (all feature extractors, ridge + gnb -> logreg stack) was retrained on all available data including the holdout data. The assumption is that including the holdout data will improve generalizable performance.
+
+# Ideas for redevelopment
+* The FRILL embedding module is some kind of TensorFlow object. It may be possible to tune the final representation to focus on the affective components of vocal utterances rather than non-semantic features generally.
+* The holdout data may be aggregated with the training data for more diversity and hopefully better performance on unseen data. To better assess generalizable performance while maximizing training data, it would be useful to develop a leave-one-out cross validation harness with folds divided by language or perhaps data source.
+* Resampling and feature augmentation are computationally and/or storage expensive techniques, but there was evidence early on to suggest their efficacy on these data.
+* The classification threshold at the end of the pipeline has not yet been assessed. Tuning this hyperparameter may yield better performance.
+* Many of the feature extractors also have hyperparameters that may be tuned.
+
 
 # Get the data
 
